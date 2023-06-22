@@ -1,10 +1,10 @@
 function ImageGalleryItem({ image, onOpen }) {
   return (
-    <li className="ImageGalleryItem-image" onClick={() => onOpen(image)}>
+    <li className="ImageGalleryItem" onClick={() => onOpen(image)}>
       <img
         src={image.webformatURL}
         alt={image.tags}
-        className={ImageGalleryItem - image}
+        className="ImageGalleryItem-image"
       />
     </li>
   );
